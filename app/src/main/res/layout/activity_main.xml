@@ -19,15 +19,15 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.733" />
 
     <EditText
         android:id="@+id/txtDireccion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="232dp"
+        android:layout_height="63dp"
         android:layout_marginStart="66dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="84dp"
@@ -39,5 +39,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAccept" />
+
+    <Switch
+        android:id="@+id/swtModo"
+        android:layout_width="142dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="226dp"
+        android:text="Modo Seguro"
+        android:textOff="No seguro"
+        android:textOn="Seguro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.622"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDireccion"
+        app:layout_constraintVertical_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>

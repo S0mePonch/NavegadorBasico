@@ -35,4 +35,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnFin" />
+
+    <TextView
+        android:id="@+id/txtAct"
+        android:layout_width="79dp"
+        android:layout_height="41dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="31dp" />
 </android.support.constraint.ConstraintLayout>
